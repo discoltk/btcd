@@ -409,7 +409,7 @@ var TestNet5Params = Params{
 	// Chain parameters
 	GenesisBlock:             &testNet5GenesisBlock,
 	GenesisHash:              &testNet5GenesisHash,
-	PowLimit:                 testNet5PowLimit,
+	PowLimit:                 &testNet5PowLimit,
 	PowLimitBits:             0x1d00ffff,
 	BIP0034Height:            10001,
 	BIP0065Height:            10001,
