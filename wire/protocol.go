@@ -128,8 +128,8 @@ const (
 	// TestNet represents the regression test network.
 	TestNet BitcoinNet = 0xdab5bffa
 
-	// TestNet3 represents the test network (version 3).
-	TestNet3 BitcoinNet = 0x0709110b
+	// TestNet5 represents the test network (version 3).
+	TestNet5 BitcoinNet = 0x6e657400
 
 	// SimNet represents the simulation test network.
 	SimNet BitcoinNet = 0x12141c16
@@ -140,7 +140,7 @@ const (
 var bnStrings = map[BitcoinNet]string{
 	MainNet:  "MainNet",
 	TestNet:  "TestNet",
-	TestNet3: "TestNet3",
+	TestNet5: "TestNet5",
 	SimNet:   "SimNet",
 }
 
