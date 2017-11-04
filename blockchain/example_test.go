@@ -10,10 +10,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/database"
-	_ "github.com/btcsuite/btcd/database/ffldb"
+	"github.com/discoltk/btcd/blockchain"
+	"github.com/discoltk/btcd/chaincfg"
+	"github.com/discoltk/btcd/database"
+	_ "github.com/discoltk/btcd/database/ffldb"
 	"github.com/btcsuite/btcutil"
 )
 

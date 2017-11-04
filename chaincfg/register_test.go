@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/btcsuite/btcd/chaincfg"
+	. "github.com/discoltk/btcd/chaincfg"
 )
 
 // Define some of the required parameters for a user-registered
