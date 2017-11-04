@@ -30,10 +30,10 @@ var (
 	// can have for the regression test network.  It is the value 2^255 - 1.
 	regressionPowLimit = new(big.Int).Sub(new(big.Int).Lsh(bigOne, 255), bigOne)
 
-	// testNet3PowLimit is the highest proof of work value a Bitcoin block
+	// testNet5PowLimit is the highest proof of work value a Bitcoin block
 	// can have for the test network (version 3).  It is the value
 	// 2^224 - 1.
-	testNet3PowLimit = new(big.Int).Sub(new(big.Int).Lsh(bigOne, 224), bigOne)
+	testNet5PowLimit = new(big.Int).Sub(new(big.Int).Lsh(bigOne, 224), bigOne)
 
 	// simNetPowLimit is the highest proof of work value a Bitcoin block
 	// can have for the simulation test network.  It is the value 2^255 - 1.
@@ -409,7 +409,7 @@ var TestNet5Params = Params{
 	// Chain parameters
 	GenesisBlock:             &testNet5GenesisBlock,
 	GenesisHash:              &testNet5GenesisHash,
-	PowLimit:                 &testNet5PowLimit,
+	PowLimit:                 testNet5PowLimit,
 	PowLimitBits:             0x1d00ffff,
 	BIP0034Height:            10001,
 	BIP0065Height:            10001,
