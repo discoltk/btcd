@@ -19,7 +19,7 @@ import (
 	"github.com/discoltk/btcd/chaincfg/chainhash"
 	"github.com/discoltk/btcd/rpcclient"
 	"github.com/discoltk/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/discoltk/btcutil"
 )
 
 const (

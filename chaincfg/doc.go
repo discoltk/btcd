@@ -25,7 +25,7 @@
 //          "fmt"
 //          "log"
 //
-//          "github.com/btcsuite/btcutil"
+//          "github.com/discoltk/btcutil"
 //          "github.com/discoltk/btcd/chaincfg"
 //  )
 //

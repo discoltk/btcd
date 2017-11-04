@@ -15,7 +15,7 @@ import (
 	"github.com/discoltk/btcd/btcjson"
 	"github.com/discoltk/btcd/chaincfg/chainhash"
 	"github.com/discoltk/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/discoltk/btcutil"
 )
 
 // FutureDebugLevelResult is a future promise to deliver the result of a

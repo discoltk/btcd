@@ -13,7 +13,7 @@ import (
 	"github.com/discoltk/btcd/database"
 	_ "github.com/discoltk/btcd/database/ffldb"
 	"github.com/discoltk/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/discoltk/btcutil"
 	flags "github.com/jessevdk/go-flags"
 )
 

@@ -11,7 +11,7 @@ import (
 	"github.com/discoltk/btcd/chaincfg"
 	"github.com/discoltk/btcd/chaincfg/chainhash"
 	"github.com/discoltk/btcd/txscript"
-	"github.com/btcsuite/btcutil"
+	"github.com/discoltk/btcutil"
 )
 
 // CheckpointConfirmations is the number of blocks before the end of the current

@@ -10,7 +10,7 @@ import (
 	"github.com/discoltk/btcd/chaincfg/chainhash"
 	"github.com/discoltk/btcd/database"
 	"github.com/discoltk/btcd/txscript"
-	"github.com/btcsuite/btcutil"
+	"github.com/discoltk/btcutil"
 )
 
 // utxoOutput houses details about an individual unspent transaction output such
