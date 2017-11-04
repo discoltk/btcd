@@ -85,7 +85,7 @@ the following constants:
 
 	wire.MainNet
 	wire.TestNet  (Regression test network)
-	wire.TestNet3 (Test network version 3)
+	wire.TestNet5 (Test network version 5)
 	wire.SimNet   (Simulation test network)
 
 Determining Message Type

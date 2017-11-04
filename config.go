@@ -528,7 +528,7 @@ func loadConfig() (*config, []string, error) {
 	// while we're at it
 	if cfg.TestNet5 {
 		numNets++
-		activeNetParams = &testNet3Params
+		activeNetParams = &testNet5Params
 	}
 	if cfg.RegressionTest {
 		numNets++

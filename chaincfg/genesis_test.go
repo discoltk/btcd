@@ -75,11 +75,11 @@ func TestTestNet5GenesisBlock(t *testing.T) {
 	}
 
 	// Ensure the encoded block matches the expected bytes.
-	if !bytes.Equal(buf.Bytes(), testNet3GenesisBlockBytes) {
+	if !bytes.Equal(buf.Bytes(), testNet5GenesisBlockBytes) {
 		t.Fatalf("TestTestNet5GenesisBlock: Genesis block does not "+
 			"appear valid - got %v, want %v",
 			spew.Sdump(buf.Bytes()),
-			spew.Sdump(testNet3GenesisBlockBytes))
+			spew.Sdump(testNet5GenesisBlockBytes))
 	}
 
 	// Check hash of the block against expected hash.
@@ -200,9 +200,9 @@ var regTestGenesisBlockBytes = []byte{
 	0xac, 0x00, 0x00, 0x00, 0x00, /* |.....|    */
 }
 
-// testNet3GenesisBlockBytes are the wire encoded bytes for the genesis block of
+// testNet5GenesisBlockBytes are the wire encoded bytes for the genesis block of
 // the test network (version 3) as of protocol version 60002.
-var testNet3GenesisBlockBytes = []byte{
+var testNet5GenesisBlockBytes = []byte{
 	0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, /* |........| */
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, /* |........| */
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, /* |........| */

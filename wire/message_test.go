@@ -188,7 +188,7 @@ func TestReadMessageWireErrors(t *testing.T) {
 	}
 
 	// Wire encoded bytes for main and testnet3 networks magic identifiers.
-	testNet3Bytes := makeHeader(TestNet5, "", 0, 0)
+	testNet5Bytes := makeHeader(TestNet5, "", 0, 0)
 
 	// Wire encoded bytes for a message that exceeds max overall message
 	// length.
@@ -248,10 +248,10 @@ func TestReadMessageWireErrors(t *testing.T) {
 
 		// Wrong network.  Want MainNet, but giving TestNet5.
 		{
-			testNet3Bytes,
+			testNet5Bytes,
 			pver,
 			btcnet,
-			len(testNet3Bytes),
+			len(testNet5Bytes),
 			&MessageError{},
 			24,
 		},
