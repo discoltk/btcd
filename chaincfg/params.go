@@ -528,7 +528,7 @@ var SimNetParams = Params{
 			StartTime:  0,             // Always available for vote
 			ExpireTime: math.MaxInt64, // Never expires
 		},
-		DeploymentSegwit: {
+		DeploymentSegwit2X: {
 			BitNumber:  1,
 			StartTime:  0,             // Always available for vote
 			ExpireTime: math.MaxInt64, // Never expires.
