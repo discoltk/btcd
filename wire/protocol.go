@@ -129,7 +129,7 @@ const (
 	TestNet BitcoinNet = 0xdab5bffa
 
 	// TestNet5 represents the test network (version 5).
-	TestNet5 BitcoinNet = 0x6e657400
+	TestNet5 BitcoinNet = 0x0074656e
 
 	// SimNet represents the simulation test network.
 	SimNet BitcoinNet = 0x12141c16

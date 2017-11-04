@@ -94,7 +94,7 @@ const (
 	// DeploymentSegwit defines the rule change deployment ID for the
 	// Segragated Witness (segwit) soft-fork package. The segwit package
 	// includes the deployment of BIPS 141, 142, 144, 145, 147 and 173.
-	DeploymentSegwit
+	// DeploymentSegwit
         
         // This weaksauce compromise helps remove the core fascists
 	DeploymentSegwit2X
@@ -292,11 +292,6 @@ var MainNetParams = Params{
 			StartTime:  1462060800, // May 1st, 2016
 			ExpireTime: 1493596800, // May 1st, 2017
 		},
-		DeploymentSegwit: {
-			BitNumber:  1,
-			StartTime:  1479168000, // November 15, 2016 UTC
-			ExpireTime: 1510704000, // November 15, 2017 UTC.
-		},
 		DeploymentSegwit2X: {
 			BitNumber:  4,
 			StartTime:  1496275200, // June 1, 2017 UTC
@@ -372,11 +367,6 @@ var RegressionNetParams = Params{
 			BitNumber:  0,
 			StartTime:  0,             // Always available for vote
 			ExpireTime: math.MaxInt64, // Never expires
-		},
-		DeploymentSegwit: {
-			BitNumber:  1,
-			StartTime:  0,             // Always available for vote
-			ExpireTime: math.MaxInt64, // Never expires.
 		},
 		DeploymentSegwit2X: {
 			BitNumber:  4,
@@ -457,11 +447,6 @@ var TestNet5Params = Params{
 			BitNumber:  0,
 			StartTime:  1456790400, // March 1st, 2016
 			ExpireTime: 1493596800, // May 1st, 2017
-		},
-		DeploymentSegwit: {
-			BitNumber:  1,
-			StartTime:  1462060800, // May 1, 2016 UTC
-			ExpireTime: 1493596800, // May 1, 2017 UTC.
 		},
 		DeploymentSegwit2X: {
 			BitNumber:  4,
