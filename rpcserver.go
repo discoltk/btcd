@@ -1220,9 +1220,6 @@ func handleGetBlockChainInfo(s *rpcServer, cmd interface{}, closeChan <-chan str
 		case chaincfg.DeploymentCSV:
 			forkName = "csv"
 
-		case chaincfg.DeploymentSegwit:
-			forkName = "segwit"
-
 		case chaincfg.DeploymentSegwit2X:
 			forkName = "segwit2x"
 
