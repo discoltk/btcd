@@ -609,7 +609,7 @@ mempoolLoop:
 	// so then this means that we'll include any transactions with witness
 	// data in the mempool, and also add the witness commitment as an
 	// OP_RETURN output in the coinbase transaction.
-	segwitState, err := g.chain.ThresholdState(chaincfg.DeploymentSegwit)
+	segwitState, err := g.chain.ThresholdState(chaincfg.DeploymentSegwit2X)
 	if err != nil {
 		return nil, err
 	}

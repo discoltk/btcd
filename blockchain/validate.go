@@ -785,7 +785,7 @@ func (b *BlockChain) checkBlockContext(block *btcutil.Block, prevNode *blockNode
 		// deployment. If segwit is active, we'll switch over to
 		// enforcing all the new rules.
 		segwitState, err := b.deploymentState(prevNode,
-			chaincfg.DeploymentSegwit)
+			chaincfg.DeploymentSegwit2X)
 		if err != nil {
 			return err
 		}
@@ -1050,7 +1050,7 @@ func (b *BlockChain) checkConnectBlock(node *blockNode, block *btcutil.Block, vi
 	// Query for the Version Bits state for the segwit soft-fork
 	// deployment. If segwit is active, we'll switch over to enforcing all
 	// the new rules.
-	segwitState, err := b.deploymentState(node.parent, chaincfg.DeploymentSegwit)
+	segwitState, err := b.deploymentState(node.parent, chaincfg.DeploymentSegwit2X)
 	if err != nil {
 		return err
 	}

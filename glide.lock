@@ -1,5 +1,5 @@
 hash: aefe02093bc36b3d009962d3bb1c4edfdad9b374df838d68d4ffe83e06ad027c
-updated: 2017-11-04T16:20:00.961974366+09:00
+updated: 2017-11-04T16:27:28.53117472+09:00
 imports:
 - name: github.com/btcsuite/btclog
   version: 84c8d2346e9fc8c7b947e243b9c24e6df9fd206a

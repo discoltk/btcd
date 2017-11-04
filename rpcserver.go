@@ -1223,6 +1223,9 @@ func handleGetBlockChainInfo(s *rpcServer, cmd interface{}, closeChan <-chan str
 		case chaincfg.DeploymentSegwit:
 			forkName = "segwit"
 
+		case chaincfg.DeploymentSegwit2X:
+			forkName = "segwit2x"
+
 		default:
 			return nil, &btcjson.RPCError{
 				Code: btcjson.ErrRPCInternal.Code,

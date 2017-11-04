@@ -396,7 +396,7 @@ func (sp *serverPeer) OnVersion(_ *peer.Peer, msg *wire.MsgVersion) {
 			// connection to peers if they flag that they're segwit
 			// enabled.
 			chain := sp.server.chain
-			segwitActive, err := chain.IsDeploymentActive(chaincfg.DeploymentSegwit)
+			segwitActive, err := chain.IsDeploymentActive(chaincfg.DeploymentSegwit2X)
 			if err != nil {
 				peerLog.Errorf("Unable to query for segwit "+
 					"soft-fork state: %v", err)
